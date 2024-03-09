@@ -1,0 +1,22 @@
+input {
+  width: calc(100% - 1.5rem);
+  height: 1.5rem;
+  border-radius: 1.35rem;
+  background-color: cornsilk;
+  outline: none;
+  padding: 0 0.75rem;
+}
+.passwordGroup {
+  position: relative;
+  background-color: cornsilk;
+  border: 2px solid cornflowerblue;
+}
+
+.showPassword {
+  position: absolute;
+  width: 1.15rem;
+  height: 1.15rem;
+  right: 3px;
+  bottom: 2px;
+  cursor: pointer;
+}
